@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>"Demostración de Output en Javascript"</title>
+</head>
+<body>
+
+    <p id="parrafo"></p>
+
+    <button onclick="actualizarTexto()">Actualizar</button>
+    <button onclick="mostrarAlerta()">Mostrar alerta</button>
+
+    <script>
+    
+         console.log("Se ha cargado correctamente");
+
+
+        function actualizarTexto() {
+            document.getElementById("parrafo").textContent = "¡Texto actualizado con Javascript!";
+        }
+        function mostrarAlerta() {
+            alert("Giovanni Daniel");
+        }
+    </script>
+
+</body>
